@@ -1,9 +1,6 @@
-my_name = "Keira"
 fav_drink = "Monster"
 my_age = 34
 
-
-print(my_name)
 
 print("My favourite drink is", fav_drink)
 
@@ -15,6 +12,12 @@ print("My favourite drink is " + fav_drink)
 
 # print("My name is " + my_name + " and I am " + my_age + " years old. My favourite drink is " + fav_drink + ".")
 
-print("My name is {}. My age is {}.".format(my_name, my_age))
+# print("My name is {}. My age is {}.".format(my_name, my_age))
 
-print(f"My name is {my_name}. I am {my_age} years old and my favourite drink is {fav_drink}.")
+# my_name = "Slim shady"
+# fav_food = "Chicken tikka"
+
+
+# print(f"My name is what?. My name is who? my name is {fav_food}, {my_name}")
+
+
