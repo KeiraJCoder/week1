@@ -1,9 +1,6 @@
 my_name = "Keira"
 my_age = 34
-student = True
+fav_drink = "monster"
 
-student = False
+print(f"My name is {my_name}. I am {my_age} years old, and my favourite drink is {fav_drink}")
 
-
-
-print(my_name)
