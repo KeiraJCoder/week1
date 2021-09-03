@@ -6,6 +6,10 @@ for x in favourite_drinks:
 for i in range (2, 12, 1):
     print (i) 
 
+for i in reversed(range (2, 12, 1)):
+    print (i) 
+
+
 name = ""
 
 while len(name) == 0: #while the length of name is equal to zero 
@@ -63,6 +67,10 @@ for x in range(13):
     print("Hello World ")
 print()
 
+for x in reversed(range(13)):
+    print("x")
+print()
+
 x = 1
 while x <= 13:
     print ("Hello World")
@@ -83,3 +91,19 @@ print("Your card is", pick_card)
 while pick_card != current_card:
     current_card = random.choice(cards)
     print(current_card)
+    
+    num = 100
+
+for i in range (100) :
+    print ("*")
+
+while num < 9:
+    
+    num += 1
+    print (* num)
+    if num <= 5:
+        num -= 1
+    else:
+        num -= 1
+        print(* num)
+
